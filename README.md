@@ -8,7 +8,7 @@ A simple web application to manage your reading list, built with Node.js, React,
 - Add a new book to the reading list
 - Update the status of a book (Unread, In Progress, Finished)
 - Delete a book from the reading list
-- Mark Favorite Icon red, if you liked a book
+- Mark a book as a favorite (Favorite icon turns red)
 
 ## Prerequisites
 
