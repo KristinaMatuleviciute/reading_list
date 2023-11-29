@@ -4,11 +4,18 @@ A simple web application to manage your reading list, built with Node.js, React,
 
 ## Features
 
-- View a list of books
-- Add a new book to the reading list
-- Update the status of a book (Unread, In Progress, Finished)
-- Delete a book from the reading list
-- Mark a book as a favorite (Favorite icon turns red)
+- **Browse Reading Lis**t: View a list of books with details.
+
+- **Add New Book**: Easily add a new book to your reading list.
+
+- **Remove from List**: Delete books from your reading list when you're done or decide not to read them.
+
+- **Track Reading Progress**: Update the status of a book to Unread, In Progress, or Finished.
+
+- **Dynamic Icon Changes**: The book icon dynamically changes based on its status. For example, it could display different book icons for Unread, In Progress, and Finished statuses.
+  
+- **Favorite Marking**: Mark a book as a favorite, with the favorite icon turning red for easy identification.
+
 
 ## Prerequisites
 
