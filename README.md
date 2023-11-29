@@ -2,17 +2,6 @@
 
 A simple web application to manage your reading list, built with Node.js, React, and MongoDB.
 
-## Table of Contents
-
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-- [Environment Variables](#environment-variables)
-- [Deployment](#deployment)
-- [Built With](#built-with)
-- [Authors](#authors)
-- [License](#license)
-
 ## Features
 
 - View a list of books
@@ -41,13 +30,19 @@ cd reading-list-app
 
 ### Navigate to the server directory and start server
 
-cd client
+
+```
+cd server
 npm start
+```
 
 ### Navigate to the client directory and start application
 
+```
 cd client
+npm install
 npm start
+```
 
 Visit http://localhost:3000 to view the app.
 
