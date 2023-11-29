@@ -1,0 +1,99 @@
+.book-list-container {
+  flex: 1;
+  padding: 10px;
+  background-color: #2e2a2a;
+  border-radius: 5px;
+  flex-direction: column;
+  /* color: #fff; */
+
+  justify-content: center;
+  min-height: 50vh;
+}
+
+.books {
+  max-height: 70vh;
+  overflow-y: auto;
+  width: 100%;
+  /* margin-top: 20px;  */
+}
+
+.add-button {
+  float: right;
+  position: relative;
+  top: 10px;
+}
+
+.titleZen {
+  display: flex;
+  justify-content: flex-start;
+  /* margin-right: 25px; */
+  margin-bottom: 25px;
+  display: inline-block;
+  color: #fff;
+}
+
+.book-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.form-button {
+  padding: 8px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 500px) {
+  .fab-container {
+    flex-direction: column; /* Stack the Fab items vertically */
+    align-items: flex-end; /* Align the items to the end of the container */
+  }
+}
+
+/* .book-list-container {
+  flex: 1;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  
+} */
+
+/* .book-list-header {
+  color: #333;
+}
+
+.book-list {
+  list-style: none;
+  padding: 0;
+}
+
+.book-item {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.book-form-container {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.book-form-header {
+  color: #333;
+} */
